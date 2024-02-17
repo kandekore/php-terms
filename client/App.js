@@ -22,8 +22,8 @@ function App() {
       <Router>
         <Header />
         <Helmet>
-          <title>JavaScript Concepts and Code Examples | By D.Kandekore</title>
-          <meta name="description" content="This site is the ultimate JavaScript learning platform, tailored for both novices beginning their programming journey and seasoned developers seeking a concise reference or to refresh their knowledge on specific concepts. Our comprehensive guide navigates through the expansive world of JavaScript, covering fundamental basics to advanced topics." />
+          <title>PHP Concepts and Code Examples | By D.Kandekore</title>
+          <meta name="description" content="This site is the ultimate PHP learning platform, tailored for both novices beginning their programming journey and seasoned developers seeking a concise reference or to refresh their knowledge on specific concepts. Our comprehensive guide navigates through the expansive world of PHP, covering fundamental basics to advanced topics." />
           
         </Helmet>
         <div className="d-flex flex-column min-vh-100">

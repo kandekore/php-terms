@@ -184,7 +184,7 @@ function Header() {
   return (
     <Navbar expand="lg" sticky="top" className={styles.header + ' bg-body-tertiary'}>
       <Container>
-        <Navbar.Brand href="/">JavaScript Concepts</Navbar.Brand>
+        <Navbar.Brand href="/">PHP Concepts</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

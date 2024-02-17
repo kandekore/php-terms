@@ -34,10 +34,10 @@ const Concept = () => {
     <div>
        <Helmet>
         
-        <title>{`${data.getConceptByTerm.term} concept for JavaScript`}</title>
+        <title>{`${data.getConceptByTerm.term} concept for PHP`}</title>
         <meta name="description" content={data.getConceptByTerm.description} />
         
-        <meta property="og:title" content={`${data.getConceptByTerm.term} Concept for JavaScript`} />
+        <meta property="og:title" content={`${data.getConceptByTerm.term} Concept for PHP`} />
         <meta property="og:description" content={data.getConceptByTerm.description} />
 
       </Helmet>
