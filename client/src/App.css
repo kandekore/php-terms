@@ -141,3 +141,11 @@ div#navbarScroll {
 
   background-color: #000!important;
 }
+
+.btn-outline-success {
+  --bs-btn-color: #000;
+  --bs-btn-border-color: #000;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #000;
+  --bs-btn-hover-border-color: #000;
+}
