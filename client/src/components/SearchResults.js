@@ -44,7 +44,7 @@ const SearchResults = () => {
         
         {concept.category ? (
           <Link to={`/${concept.category.replace(/\s+/g, "-")}`}>
-            (Category:{" "} {concept.category})
+            {concept.category}
           </Link>
         ) : (
           " "

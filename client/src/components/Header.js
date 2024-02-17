@@ -32,9 +32,7 @@ function Header() {
             <NavLink to="/array-methods" className={({ isActive }) => isActive ? `${styles.activeLink} nav-link` : "nav-link"}>Array Methods</NavLink>
             <NavLink to="/array-iteration" className={({ isActive }) => isActive ? `${styles.activeLink} nav-link` : "nav-link"}>Array Iteration</NavLink>
             <NavDropdown title="More" id="navbarScrollingDropdown">
-                           <NavDropdown.Item as={Link} to="/array-iteration" className="dropdown-item">
-    Array Iteration
-  </NavDropdown.Item>
+                        
              <NavDropdown.Item as={Link} to="/objects" className="dropdown-item">
     Objects
   </NavDropdown.Item>
