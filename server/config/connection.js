@@ -2,7 +2,7 @@ require('dotenv').config(); // Load environment variables
 const { connect, connection } = require("mongoose");
 
 // Use the environment variable or provide a default for development
-const mongoDBUri = "mongodb://127.0.0.1/phpconcept";
+const mongoDBUri = process.env.MONGODB_URI || "mongodb://127.0.0.1/phpconcept";
 
 connect(mongoDBUri, {
   useNewUrlParser: true,
